@@ -1,5 +1,6 @@
+
 export interface ScriptConfig {
-  mode: 'viewers' | 'contacts';
+  mode: 'viewers' | 'contacts' | 'chats';
   scrollStep: number;
   scrollDelay: number;
   filterTime: boolean;
